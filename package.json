@@ -1,0 +1,21 @@
+{
+  "name": "scraperts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "^10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^12.6.0",
+    "azure-storage": "^2.10.4",
+    "express": "^4.17.1",
+    "puppeteer": "^10.1.0"
+  }
+}
